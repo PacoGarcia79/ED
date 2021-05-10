@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CODIGO_EJEMPLO</name>
+    </assembly>
+    <members>
+        <member name="T:ej1.Ficha">
+            <summary>
+            Tipo Valor. Permite convertir una cadena que simula una ficha de domino.
+            </summary>
+        </member>
+        <member name="T:ej1.Ficha.Punto">
+            <summary>
+            Enumerado que contiene todos los valores posibles que puede tomar la ficha.
+            </summary>
+        </member>
+        <member name="F:ej1.Ficha.puntosArriba">
+            <summary>
+            Variable que almacena el primer valor de la ficha.
+            </summary>
+            <remarks>
+            Es de tipo enumerado Punto. Puede ser modificada.
+            </remarks>
+        </member>
+        <member name="F:ej1.Ficha.puntosAbajo">
+            <summary>
+            Variable que almacena el segundo valor de la ficha.
+            </summary>
+            <remarks>
+            Es de tipo enumerado Punto. Puede ser modificada.
+            </remarks>
+        </member>
+        <member name="M:ej1.Ficha.#ctor(System.String)">
+             <summary>
+             Constructor del struct
+             </summary>
+             <param name="cadena"></param>
+             <remarks>
+             Mediante una expresión regular comprueba si la cadena coincide con el patrón indicado. Si es así,
+             asigna los valores a las variables puntosArriba y puntosAbajo.
+            </remarks>
+        </member>
+        <member name="M:ej1.Ficha.ToString">
+            <summary>
+            Invalida el método ToString()
+            </summary>
+            <returns>Devuelve una cadena string para imprimir por pantalla la Ficha.</returns>
+        </member>
+        <member name="T:ej1.Program">
+            <summary>
+            Clase principal del programa.
+            </summary>
+        </member>
+    </members>
+</doc>

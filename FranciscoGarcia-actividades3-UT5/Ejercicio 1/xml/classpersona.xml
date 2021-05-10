@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classpersona" kind="class" language="C++" prot="public">
+    <compoundname>persona</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classpersona_1a0961bde2b7b9c4ce92a94c9c5456ef2f" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char persona::nombre[40]</definition>
+        <argsstring>[40]</argsstring>
+        <name>nombre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>campo privado nombre de tipo char </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mar/Desktop/FP DESARROLLO DE APLICACIONES MULTIPLATAFORMA/PRIMER CURSO/ENTORNOS DE DESARROLLO/TEMARIO/UNIDAD 5 - DOCUMENTACIÓN/EJERCICIOS EVALUABLES/ACTIVIDAD 1/Ejercicio 1/ejercicio1.cc" line="18" column="10" bodyfile="C:/Users/Mar/Desktop/FP DESARROLLO DE APLICACIONES MULTIPLATAFORMA/PRIMER CURSO/ENTORNOS DE DESARROLLO/TEMARIO/UNIDAD 5 - DOCUMENTACIÓN/EJERCICIOS EVALUABLES/ACTIVIDAD 1/Ejercicio 1/ejercicio1.cc" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classpersona_1a6091a87664791110ead8c12f69204000" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void persona::dormir</definition>
+        <argsstring>()</argsstring>
+        <name>dormir</name>
+        <briefdescription>
+<para>Método que se usa para dormir al personaje. El método saca por pantalla una cadena de caracteres formada por una secuencia de “z” </para>
+        </briefdescription>
+        <detaileddescription>
+<para>método void dormir </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mar/Desktop/FP DESARROLLO DE APLICACIONES MULTIPLATAFORMA/PRIMER CURSO/ENTORNOS DE DESARROLLO/TEMARIO/UNIDAD 5 - DOCUMENTACIÓN/EJERCICIOS EVALUABLES/ACTIVIDAD 1/Ejercicio 1/ejercicio1.cc" line="11" column="10" bodyfile="C:/Users/Mar/Desktop/FP DESARROLLO DE APLICACIONES MULTIPLATAFORMA/PRIMER CURSO/ENTORNOS DE DESARROLLO/TEMARIO/UNIDAD 5 - DOCUMENTACIÓN/EJERCICIOS EVALUABLES/ACTIVIDAD 1/Ejercicio 1/ejercicio1.cc" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classpersona_1ac63ac8908b3ec79de7455b88b0ad8453" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void persona::hablar</definition>
+        <argsstring>()</argsstring>
+        <name>hablar</name>
+        <briefdescription>
+<para>Método que se usa para hacer hablar al personaje. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>método void hablar</para>
+<para>El método saca por pantalla una cadena de caracteres formada por una secuencia de tres carácteres &quot;bla&quot; que se repite cuatro veces. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mar/Desktop/FP DESARROLLO DE APLICACIONES MULTIPLATAFORMA/PRIMER CURSO/ENTORNOS DE DESARROLLO/TEMARIO/UNIDAD 5 - DOCUMENTACIÓN/EJERCICIOS EVALUABLES/ACTIVIDAD 1/Ejercicio 1/ejercicio1.cc" line="12" column="10" bodyfile="C:/Users/Mar/Desktop/FP DESARROLLO DE APLICACIONES MULTIPLATAFORMA/PRIMER CURSO/ENTORNOS DE DESARROLLO/TEMARIO/UNIDAD 5 - DOCUMENTACIÓN/EJERCICIOS EVALUABLES/ACTIVIDAD 1/Ejercicio 1/ejercicio1.cc" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classpersona_1a809f292f794f51bda2cff997eff6166e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void persona::contar</definition>
+        <argsstring>(int)</argsstring>
+        <name>contar</name>
+        <param>
+          <type>int</type>
+          <defname>limite</defname>
+        </param>
+        <briefdescription>
+<para>Método que se usa para hacer contar al personaje. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>método void contar</para>
+<para>El método recibe un parámetro de tipo numérico int denominado limite, el cúal marca el tope hasta donde contará el personaje. Saca por pantalla los números contados de forma sucesiva. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mar/Desktop/FP DESARROLLO DE APLICACIONES MULTIPLATAFORMA/PRIMER CURSO/ENTORNOS DE DESARROLLO/TEMARIO/UNIDAD 5 - DOCUMENTACIÓN/EJERCICIOS EVALUABLES/ACTIVIDAD 1/Ejercicio 1/ejercicio1.cc" line="13" column="10" bodyfile="C:/Users/Mar/Desktop/FP DESARROLLO DE APLICACIONES MULTIPLATAFORMA/PRIMER CURSO/ENTORNOS DE DESARROLLO/TEMARIO/UNIDAD 5 - DOCUMENTACIÓN/EJERCICIOS EVALUABLES/ACTIVIDAD 1/Ejercicio 1/ejercicio1.cc" bodystart="44" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classpersona_1a481d7d102bcf1366d9bdde3fcec2dd75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void persona::adquirirNombre</definition>
+        <argsstring>()</argsstring>
+        <name>adquirirNombre</name>
+        <briefdescription>
+<para>Método que se usa asignar un nombre al personaje. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>método void adquirirNombre</para>
+<para>El método solicita que se introduzca un nombre, el cuál es asignado al personaje mediante el campo &quot;nombre&quot;. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mar/Desktop/FP DESARROLLO DE APLICACIONES MULTIPLATAFORMA/PRIMER CURSO/ENTORNOS DE DESARROLLO/TEMARIO/UNIDAD 5 - DOCUMENTACIÓN/EJERCICIOS EVALUABLES/ACTIVIDAD 1/Ejercicio 1/ejercicio1.cc" line="14" column="10" bodyfile="C:/Users/Mar/Desktop/FP DESARROLLO DE APLICACIONES MULTIPLATAFORMA/PRIMER CURSO/ENTORNOS DE DESARROLLO/TEMARIO/UNIDAD 5 - DOCUMENTACIÓN/EJERCICIOS EVALUABLES/ACTIVIDAD 1/Ejercicio 1/ejercicio1.cc" bodystart="56" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classpersona_1af2e3e44393212309a592db70b2e512dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void persona::decirNombre</definition>
+        <argsstring>()</argsstring>
+        <name>decirNombre</name>
+        <briefdescription>
+<para>Método que se usa para que el personaje diga su nombre. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>método void decirNombre</para>
+<para>El método saca por pantalla el nombre del personaje, el cúal está asignado en el campo &quot;nombre&quot;. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mar/Desktop/FP DESARROLLO DE APLICACIONES MULTIPLATAFORMA/PRIMER CURSO/ENTORNOS DE DESARROLLO/TEMARIO/UNIDAD 5 - DOCUMENTACIÓN/EJERCICIOS EVALUABLES/ACTIVIDAD 1/Ejercicio 1/ejercicio1.cc" line="15" column="10" bodyfile="C:/Users/Mar/Desktop/FP DESARROLLO DE APLICACIONES MULTIPLATAFORMA/PRIMER CURSO/ENTORNOS DE DESARROLLO/TEMARIO/UNIDAD 5 - DOCUMENTACIÓN/EJERCICIOS EVALUABLES/ACTIVIDAD 1/Ejercicio 1/ejercicio1.cc" bodystart="66" bodyend="69"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Representa una clase persona con sus métodos públicos y un campo privado. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Mar/Desktop/FP DESARROLLO DE APLICACIONES MULTIPLATAFORMA/PRIMER CURSO/ENTORNOS DE DESARROLLO/TEMARIO/UNIDAD 5 - DOCUMENTACIÓN/EJERCICIOS EVALUABLES/ACTIVIDAD 1/Ejercicio 1/ejercicio1.cc" line="8" column="1" bodyfile="C:/Users/Mar/Desktop/FP DESARROLLO DE APLICACIONES MULTIPLATAFORMA/PRIMER CURSO/ENTORNOS DE DESARROLLO/TEMARIO/UNIDAD 5 - DOCUMENTACIÓN/EJERCICIOS EVALUABLES/ACTIVIDAD 1/Ejercicio 1/ejercicio1.cc" bodystart="9" bodyend="19"/>
+    <listofallmembers>
+      <member refid="classpersona_1a481d7d102bcf1366d9bdde3fcec2dd75" prot="public" virt="non-virtual"><scope>persona</scope><name>adquirirNombre</name></member>
+      <member refid="classpersona_1a809f292f794f51bda2cff997eff6166e" prot="public" virt="non-virtual"><scope>persona</scope><name>contar</name></member>
+      <member refid="classpersona_1af2e3e44393212309a592db70b2e512dc" prot="public" virt="non-virtual"><scope>persona</scope><name>decirNombre</name></member>
+      <member refid="classpersona_1a6091a87664791110ead8c12f69204000" prot="public" virt="non-virtual"><scope>persona</scope><name>dormir</name></member>
+      <member refid="classpersona_1ac63ac8908b3ec79de7455b88b0ad8453" prot="public" virt="non-virtual"><scope>persona</scope><name>hablar</name></member>
+      <member refid="classpersona_1a0961bde2b7b9c4ce92a94c9c5456ef2f" prot="private" virt="non-virtual"><scope>persona</scope><name>nombre</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
