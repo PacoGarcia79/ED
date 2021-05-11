@@ -1,7 +1,7 @@
 ```javascript
 console.log("Prácticas de ED"); 
 ```
-```c#
+```csharp
 Console.Writeline("*******************************");  
 ```
 # Repositorio para entregar prácticas de ED
