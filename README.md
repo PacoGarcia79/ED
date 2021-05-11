@@ -1,4 +1,4 @@
-```JavaScript
+```javascript
 console.log("Prácticas de ED"); 
 ```
 ```c#
