@@ -1,5 +1,6 @@
+```JavaScript
 console.log("Prácticas de ED"); 
-
+```
 ```c#
 Console.Writeline("*******************************");  
 ```
